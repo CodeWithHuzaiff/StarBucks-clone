@@ -1,0 +1,43 @@
+@media(max-width:800px){
+    nav div span a,
+    nav div a ,
+    nav div button{
+        display: none;
+    }
+    header nav .r-nav img{
+        display:flex;
+        margin-right: -15px;
+    }
+}
+
+@media(max-width:766px){
+    main .section1{
+        flex-direction: column-reverse;
+
+    }
+    main .section2{
+        flex-direction: column;
+
+    }
+    main section img{
+        width: 100vw;
+        height:50vh;
+        object-fit: cover;
+    }
+    main section .para{
+        width: 100vw;
+        height: 30vh;
+    }
+    main section .para h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    main section .para h2{
+        font-size: 18px;
+        font-weight: lighter;
+    }
+    /* main section .para button{
+        
+    } */
+
+}

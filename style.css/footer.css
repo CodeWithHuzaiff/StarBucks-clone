@@ -1,0 +1,80 @@
+footer .sec-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+footer .sec-a div{
+    width: 40vw;
+    margin-bottom: 45px;
+
+}
+footer .sec-a div p{
+    text-align: center;
+    color: rgb(75, 73, 73);
+    line-height: 25px;
+    font-size: 14px;
+    
+}
+.line{
+    width: 100vw;
+    height: 1px;
+    box-shadow: 2px 2px 4px black;
+    margin: 0;
+}
+.sec-b{
+    padding: 30px;
+    display: flex;
+    column-gap: 16px;
+}
+.sec-b .f-div{
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+
+}
+.sec-b .f-div h2{
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 35px;
+}
+.sec-b .f-div a{
+    margin-bottom: 30px;
+    color: rgb(101, 99, 99);
+    text-decoration: none;
+    font-size: 16px;
+
+}
+.sec-b .f-div a:hover{
+    color: black;
+}
+.sec-c div ul li img{
+    width: 42px;
+}
+.sec-c div ul{
+    display: flex;
+    column-gap: 12px;
+    list-style: none;
+    padding:40px 36px;
+}
+.end{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.end a{
+    color: rgb(55, 54, 54);
+    text-decoration: none;
+}
+.end a:hover{
+    color: black;
+}
+.last{
+    margin-left: 40px;
+    margin-bottom: 50px;
+    color: rgb(86, 84, 84);
+}
+

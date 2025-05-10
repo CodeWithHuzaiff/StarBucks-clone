@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header nav .l-nav span img{
+    width: 50px;
+}
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+nav{
+    height: 90px;
+    width: 100vw;
+    margin:0 20px ;
+}
+.l-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin:0 25px ;
+}
+.r-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 14px;
+    margin:0 35px ;
+}
+header nav div span a,
+ header nav div a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-right: 18px;
+}
+header nav div span a:hover,
+ header nav div a:hover{
+    color: rgb(53, 114, 22);
+ }
+.sign-in-bt{
+    padding: 9px 14px;
+    border-radius: 20px;
+    border: 1px solid black;
+    font-size: 14px;
+    font-weight: 500;
+}
+.sign-in-bt:hover{
+    background-color: rgb(231, 229, 229);
+}
+.join-bt{
+    padding: 9px 16px;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+.join-bt:hover{
+    opacity: 0.8;
+}
+header nav .r-nav img {
+    width: 40px;
+    display: none;
+}
+.line{
+    width: 100vw;
+    height: 1px;
+    box-shadow: 2px 2px 4px black;
+    margin: 0;
+}
+

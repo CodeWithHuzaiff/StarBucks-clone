@@ -1,0 +1,49 @@
+main .section1{
+    display: flex;
+    flex-direction:row;
+    margin:35px 22px;
+}
+main section .para{
+    width: 50vw;
+    height: 80vh;
+    background-color: rgba(4, 36, 4, 0.82);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 20px;
+    color: white;
+    text-align: center;
+    padding: 0 80px;
+}
+main .section2 .para{
+    background-color: rgba(123, 123, 9, 0.37);
+    width: 50vw;
+}
+main .section4 .para{
+    background-color: #006242;
+    width: 50vw;
+}
+main section div img{
+    width: 50vw;
+    height:80vh;
+    object-fit: cover;
+
+}
+main section .para h1{
+    font-size: 50px;
+    font-weight: 600;
+}
+main section .para h2{
+    font-size: 23px;
+    font-weight: lighter;
+}
+main section .para button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 15px;
+}
